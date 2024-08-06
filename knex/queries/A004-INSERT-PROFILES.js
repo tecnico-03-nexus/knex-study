@@ -8,12 +8,12 @@ const data = [
     },
     {
         bio: 'Lorem Ipsum 2',
-        description: 'Beef chicken pork bacon chuck shortloin sirloin shank bresaola hamburger id aliquip beefribs pancetta, cupidatat occaecat reprehenderit ribeye enim commodo aliqua est biltong ',
+        description: 'Beef chicken bacon chuck shortloin sirloin shank bresaola hamburger id aliquip beefribs pancetta, cupidatat occaecat reprehenderit ribeye enim commodo aliqua est biltong ',
         user_id: 5,
     },
     {
         bio: 'Lorem Ipsum 3',
-        description: 'Beef chicken pork bacon chuck shortloin sirloin shank bresaola hamburger id aliquip beefribs pancetta, cupidatat occaecat reprehenderit ribeye enim commodo aliqua est biltong ',
+        description: 'Beef  pork bacon chuck shortloin sirloin shank bresaola hamburger id aliquip beefribs pancetta, cupidatat occaecat reprehenderit ribeye enim commodo aliqua est biltong ',
         user_id: 3,
     },
     {
