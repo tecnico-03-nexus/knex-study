@@ -1,6 +1,6 @@
 
 exports.up = function(knex) {
-    return knex.schema.createTable('matriz', (table)=> {
+    return knex.schema.withSchema('balanco_hidrico').createTable('matriz', (table)=> {
       table.increments('id').primary();
       table.date('data_insercao').notNullable();  // YYYY-MM-DD
       table.float('volume_de_entrada').notNullable();
@@ -26,6 +26,6 @@ exports.up = function(knex) {
   };
   
   exports.down = function(knex) {
-    return knex.schema.dropTable('matriz');
+    return knex.schema.withSchema('balanco_hidrico').dropTable('matriz');
   };
   

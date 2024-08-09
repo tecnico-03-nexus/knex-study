@@ -1,9 +1,7 @@
 exports.seed = function(knex) {
-  // Limpar a tabela antes de inserir novos dados
-  return knex('matriz').del()
+  return knex.withSchema('balanco_hidrico').table('matriz').del()
     .then(function () {
-      // Inserir dados
-      return knex('matriz').insert([
+      return knex.withSchema('balanco_hidrico').table('matriz').insert([
         {
           data_insercao: '2024-08-06',
           volume_de_entrada: 107773.38,
